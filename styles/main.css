@@ -1,0 +1,102 @@
+.main-img {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-image: linear-gradient(to top, #181818, transparent),
+    url("../assets/images/top-img.jpg");
+  background-size: cover;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-feature {
+  position: relative;
+  top: 100px;
+  width: 1000px;
+  height: 400px;
+  margin-left: 50px;
+}
+
+.top-img {
+  height: 200px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.main-movie {
+  position: relative;
+  top: 100px;
+  width: 1000px;
+  height: 400px;
+  margin-left: 50px;
+}
+
+.movie-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.movie-btn {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.play-btn,
+.mylist-btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 3px;
+  background-color: rgba(85, 85, 85, 0.7); /* 투명도 조절 */
+  cursor: pointer;
+  color: white;
+  border: none; /* 박스 선 제거 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+}
+
+.originals-title,
+.trending-title {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.originals-movies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 35px 35px 10px 35px;
+}
+
+.trending-movies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 35px 35px 10px 35px;
+}
+
+.movie-poster {
+  width: 299px;
+  height: 168px;
+  color: white;
+  font-size: large;
+  padding: 1rem;
+
+  text-align: center;
+  align-items: center;
+}
+
+.movie-poster img {
+  transition: all 0.3s;
+  width: 100%;
+  height: 100%;
+}
+
+.movie-poster:hover img {
+  transform: scale(1.2);
+}
